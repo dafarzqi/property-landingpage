@@ -33,6 +33,13 @@
 
 		<!-- Custom css --> 
 		<link href="css/custom.css" rel="stylesheet">
+		<style>
+			.image-box img {
+				width: 100%;
+				height: 200px; /* Set a fixed height for the images */
+				object-fit: cover; /* Ensure the images cover the specified height */
+			}
+		</style>
 	</head>
 
 	<body class="no-trans">
@@ -1056,32 +1063,33 @@
 		<div class="container" style="background-color: #55ACEEB3; margin-bottom: 40px;">
 			<h1 id="clients" class="center-text" style="color: white;">Our Listing</h1>
 			<div class="flex">
+				<!-- Right Side: Image -->
+				<div class="flex-1 image-container">
+					<img src="images/agency.jpg" alt="Job Assistance" class="responsive-image">
+				</div>
 				<!-- Left Side: Text Listings -->
 				<div class="flex-1 space-y-12">
 					<!-- First listing -->
-					<div class="box">
-						<strong><h3>PEKALONGAN</h3></strong>
-						<p>Finding a job should not be a full-time endeavor. Tell us what you're searching for, and we'll find you a job.</p>
-					</div>
-					
+					<a href="https://www.instagram.com/jualpropertipkl/?igsh=OXBiNnBydW5xa3R0">
+						<div class="box" style="margin-bottom: 13px;">
+							<strong><h3>PEKALONGAN</h3></strong>
+							<p>Temukan berbagai pilihan properti menarik di Pekalongan, mulai dari hunian nyaman hingga investasi menguntungkan. Kami siap membantu Anda menemukan rumah impian atau properti terbaik sesuai kebutuhan Anda.</p>
+						</div>
+					</a>
 					<!-- Second listing -->
 					<div class="box">
 						<h3>BATANG</h3>
-						<p>Finding a job should not be a full-time endeavor. Tell us what you're searching for, and we'll find you a job.</p>
+						<p>Temukan berbagai pilihan properti menarik di Batang, mulai dari hunian nyaman hingga investasi menguntungkan. Kami siap membantu Anda menemukan rumah impian atau properti terbaik sesuai kebutuhan Anda.</p>
 					</div>
-					
 					<!-- Third listing -->
 					<div class="box">
 						<h3>PEMALANG</h3>
-						<p>Finding a job should not be a full-time endeavor. Tell us what you're searching for, and we'll find you a job.</p>
+						<p>Temukan berbagai pilihan properti menarik di Pemalang, mulai dari hunian nyaman hingga investasi menguntungkan. Kami siap membantu Anda menemukan rumah impian atau properti terbaik sesuai kebutuhan Anda.</p>
 					</div>
-				</div>
-				<!-- Right Side: Image -->
-				<div class="flex-1 image-container">
-					<img src="images/agency.jpg" alt="Job Assistance">
 				</div>
 			</div>
 		</div>
+		
 		<!-- section end -->
 
 		<!-- footer start -->
@@ -1100,7 +1108,7 @@
 				<div>
 					<h3 class="footer-heading">Developer Team</h3>
 					<ul class="footer-links">
-						<li>Dafa Rizqi Pratama</li>
+						<li><a href=https://github.com/dafarzqi>Dafa Rizqi Pratama</a>
 						<li>Nur Arista Shofhah</li>
 					</ul>
 				</div>
